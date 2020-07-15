@@ -28,10 +28,11 @@
           display: flex;
           justify-content: end;
           list-style: none;
-          color: #ffffff;
           &__btn {
-            color: #ffffff;
             margin-left: 5px;
+            a{
+              color: #ffffff;
+            }
           }
         }
       }
