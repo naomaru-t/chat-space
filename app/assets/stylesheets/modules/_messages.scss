@@ -38,11 +38,12 @@
       }
     }
     &__group--list {
+      overflow: scroll;
       background-color: #2f3e51;
       height: calc(100vh - 100px);
       display: flex;
-      justify-content: center;
-      align-items: flex-end;
+      flex-direction: column;
+      align-items: center;
       &--contents {
         width: 260px;
         justify-content: center;
@@ -98,6 +99,7 @@
       }
     }
     &__message--list {
+      overflow: scroll;
       height: calc(100vh - 100px - 90px);
       background-color: #fafafa;
       &__message {
@@ -130,7 +132,7 @@
         justify-content: space-between;
         &__inputbox {
           width: 100%;
-          background-color: #fff;
+          background-color: #ffffff;
           position: relative;
           display: block;
           &__text {
